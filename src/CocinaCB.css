@@ -1,0 +1,29 @@
+.ad {
+    font-size: 40;
+    color: black;
+}
+
+h1{
+    /*font-size: 50%;*/
+    color:rgb(rgb(182, 49, 49), rgb(29, 202, 29), rgb(20, 20, 163))
+}
+
+body {
+    font-size: large;
+}
+
+#what {
+    font-size: 30;
+}
+
+photoSize {
+    width: auto;
+}
+
+/*
+% - percent relative to the parent container
+px - pixels are absolute, like millimeters
+vw & vh - view width & view height are relative to the viewing screen
+rem - relative to size of original font
+em - relative to the size of the parent container
+*/

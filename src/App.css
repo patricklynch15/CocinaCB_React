@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1b5ada;
+  background-image: "./Food Pics/Fish 1.jpeg";
   min-height: 100vh;
   display: flex;
   flex-direction: column;
