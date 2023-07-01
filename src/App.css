@@ -15,18 +15,21 @@
 
 .App-header {
   background-color: #1b5ada;
-  background-image: "./Food Pics/Fish 1.jpeg";
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
+  position: fixed;
+  min-width: 100vw;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
+  position: relative;
 }
 
 @keyframes App-logo-spin {
@@ -37,3 +40,28 @@
     transform: rotate(360deg);
   }
 }
+
+img {
+  width: 25vw;
+  height: auto;
+}
+
+#Dropdown {
+  position: absolute;
+  left: 1%;
+}
+
+#headerTitle {
+  position: left;
+}
+
+/*
+% - percent relative to the parent container
+px - pixels are absolute, like millimeters
+vw & vh - view width & view height are relative to the viewing screen
+rem - relative to size of original font
+em - relative to the size of the parent container
+&emsp; -- 4 spaces gap
+&ensp; -- 2 spaces gap
+&nbsp; -- 1 space gap
+*/
