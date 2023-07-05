@@ -14,17 +14,23 @@
 }
 
 .App-header {
-  background-color: #1b5ada;
+  background-color: #e11919;
   min-height: 10vh;
   display: flex;
-  position: fixed;
+  position: relative;
   min-width: 100vw;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 
+}
+
+.mainPageDisplay {
+  position:sticky;
+  /* top: 15px; */
+  width: center;
 }
 
 .App-link {
@@ -46,9 +52,22 @@ img {
   height: auto;
 }
 
-#Dropdown {
-  position: absolute;
-  left: 1%;
+.red-flag-square {
+  border-radius: 15px;
+  border: #e11919;
+  border-style: groove;
+  border-width: 5px;
+  border-spacing: 5px;
+  margin: 10px;
+}
+
+.blue-flag-square {
+  border-radius: 15px;
+  border: rgba(0, 0, 255);
+  border-style: groove;
+  border-width: 5px;
+  border-spacing: 5px;
+  margin: 10px;
 }
 
 #headerTitle {
@@ -64,4 +83,13 @@ em - relative to the size of the parent container
 &emsp; -- 4 spaces gap
 &ensp; -- 2 spaces gap
 &nbsp; -- 1 space gap
+
+
+positions:
+static - default
+relative - relative to the parent element
+absolute - stays in place, independent of the document flow or parent element
+fixed - it stays in place on the screen, even when you scroll down
+sticky - it's in place for a second, but once you scroll down it comes along
+
 */
