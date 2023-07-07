@@ -1,7 +1,12 @@
-<!DOCTYPE html>
+import React from 'react';
+
+function AboutUs() {
+
+return (
+<script>
 
 <html lang="en">
-<head>About Us! </head>
+<head> About Us! </head>
 <body>
 
 Welcome to Cocina Cibaeña, your premier destination for authentic Dominican cuisine in Prince George's County, Maryland! At Cocina Cibaeña, we are passionate about delivering exceptional catering experiences that showcase the vibrant flavors and rich cultural heritage of the Dominican Republic.
@@ -24,16 +29,16 @@ Thank you for choosing Cocina Cibaeña. We look forward to serving you and creat
 Spanish Version:
 ¡Bienvenidos a Cocina Cibaeña, tu destino principal para disfrutar de auténtica comida dominicana en el Condado de Prince George's, Maryland! En Cocina Cibaeña, estamos apasionados por ofrecer experiencias culinarias excepcionales que resalten los sabores vibrantes y la rica herencia cultural de la República Dominicana.
 
-Nuestra Historia:
+<strong>Nuestra Historia:</strong>
 Fundados con un profundo amor por la comida dominicana y el deseo de compartirlo con nuestra comunidad local, Cocina Cibaeña surgió como una labor de amor. Nuestro cocinero, criado en La Vega, aporta un toque auténtico a cada plato que creamos. Comenzamos como una operación a pequeña escala, ofreciendo servicios de catering para reuniones íntimas y eventos familiares. Con el tiempo, nuestro compromiso de brindar experiencias culinarias inolvidables nos ha ganado una base leal de clientes satisfechos que aprecian la autenticidad y calidad de nuestros platos.
 
-Sabores Auténticos Dominicanos:
+<strong>Sabores Auténticos Dominicanos:</strong>
 Nos inspiramos en las diversas tradiciones culinarias de la región del Cibao en la República Dominicana y nos enorgullece ofrecer un menú que captura la esencia de la cocina dominicana. Cada plato está meticulosamente elaborado utilizando recetas tradicionales, ingredientes de primera calidad y un toque de pasión. Desde el suculento cerdo asado (pernil) hasta el sabroso pollo guisado, y desde los deliciosos tostones hasta el arroz con habichuelas (moros y cristianos), nuestro menú es una celebración de los sabores vibrantes que hacen que la comida dominicana sea realmente excepcional.
 
-Experiencias de Catering Inolvidables:
+<strong>Experiencias de Catering Inolvidables:</strong>
 Ya sea que estés planeando un evento corporativo, una recepción de bodas, una celebración de cumpleaños o cualquier ocasión especial, Cocina Cibaeña está aquí para elevar tu experiencia de catering. Nuestro dedicado equipo de expertos culinarios y profesionales del servicio trabajan estrechamente contigo para comprender tus requerimientos únicos y ofrecerte un menú personalizado que supere tus expectativas. Priorizamos la atención al detalle, un servicio excepcional y la máxima calidad de comida para garantizar que tu evento sea un rotundo éxito.
 
-Nuestra Visión:
+<strong>Nuestra Visión:</strong>
 En Cocina Cibaeña, nuestra visión va más allá de ofrecer servicios de catering excepcionales. Aspiramos a ser un catalizador de cambio en la industria culinaria, promoviendo el reconocimiento y la apreciación de la cocina dominicana en una escala más amplia. A través de nuestro compromiso con la excelencia, la creatividad y la innovación, buscamos establecer a Cocina Cibaeña como una marca culinaria líder, reconocida por sus sabores auténticos dominicanos y sus experiencias excepcionales para los clientes.
 
 Únete a nosotros en este emocionante viaje mientras ampliamos nuestros horizontes y convertimos nuestra pasión por la comida dominicana en una dedicación a tiempo completo. Tu apoyo y patrocinio son fundamentales para ayudarnos a hacer realidad nuestro sueño de convertir a Cocina Cibaeña en un negocio próspero y un destino apreciado por los entusiastas de la comida en todo el Condado de Prince George's y más allá.
@@ -44,4 +49,7 @@ Gracias por elegir a Cocina Cibaeña. Esperamos servirte y crear recuerdos inolv
 </body>
 </html>
 
+</script>);
+}
 
+export { AboutUs }
