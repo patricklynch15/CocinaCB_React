@@ -1,11 +1,10 @@
 import React from 'react';
 
+
 function AboutUs() {
 
 return (
-<script>
-
-<html lang="en">
+    <html>
 <head> About Us! </head>
 <body>
 
@@ -47,9 +46,7 @@ Gracias por elegir a Cocina Cibaeña. Esperamos servirte y crear recuerdos inolv
 
 
 </body>
-</html>
-
-</script>);
+</html>);
 }
 
-export { AboutUs }
+export default AboutUs;
